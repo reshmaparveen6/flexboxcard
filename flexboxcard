@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cards</title>
+<style>
+
+.items {
+border: 2px solid black; 
+  margin: 20px;
+  padding: 20px 20px;
+  width: 250px;
+  height: 250px;
+    background-color: lightskyblue;
+
+}
+
+.container {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="items" >
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9dQN6Y4-aa3bJp5ifPVD-1nDHd4zdng7f_kc37UpfxVUvaIuzNYjhocKrsKwuu78BDpc&usqp=CAU" alt="Avatar" width="100">
+ 
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer in India
+    The best architect with 5 years of experience.</p> 
+ 
+
+  </div>
+
+<div class="items" >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9dQN6Y4-aa3bJp5ifPVD-1nDHd4zdng7f_kc37UpfxVUvaIuzNYjhocKrsKwuu78BDpc&usqp=CAU" alt="Avatar" width="100">
+  
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer in India
+     The best architect with 5 years of experience.</p> 
+  
+
+  </div>
+
+
+</div>
+
+
+</body>
+</html> 
